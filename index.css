@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "General Sans";
+    color: aliceblue;
+}
+
+.mian{
+    width: 100%;
+    background-color: #000;
+    position: relative;
+}
+
+.min_circle{
+    width: 18px;
+    height: 18px; 
+    position: absolute;
+    z-index: 999;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    transition: all .1s ease;
+    border: .7px gray solid; 
+    color: #000;
+    z-index: 5;
+    mix-blend-mode: difference;
+}
+.normal{
+    mix-blend-mode: normal;
+
+}
+.active{
+    mix-blend-mode: difference;
+}
+
+
+.circle_text{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-block: 40%;
+    color: #000;
+    opacity: 0;
+   
+
+
+}
+
+html,body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+#hero{
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+}
+#nav{
+    width: 100%;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav a {
+    text-decoration: none;
+    font-size: 18px;
+}
+#nav h4 {
+font-size: 18px;
+}
+
+.heading h1{
+    font-size: 10vw;
+    text-transform: uppercase;
+    line-height: 0.9;
+    font-weight: 800;
+    opacity: 0.6;
+   
+}
+#topline{
+    margin-top: 65px;
+    padding:0 60px;
+}
+#secline{
+    
+    margin-left: 10rem;
+}
+.blocktext {
+    width: fit-content;
+
+}
+#basic_heading_pairant{
+    transform: translateX(44rem);
+}
+#basic_heading{
+    
+    font-size: 1.2vw;
+    line-height: 2.1;
+    text-transform: uppercase;
+}
+.smallheading{
+    margin-top: 100px;
+    text-align: right;
+    padding-right: 40px;
+    margin-top: .5vw;
+    padding-bottom: 60px;
+}
+.smallheading h6{
+    text-transform: uppercase;
+   padding-top: 5px;
+    font-size: 1.1vw;
+    
+}
+.herofooter{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 40px;
+    text-transform: uppercase;
+    
+
+}
+.herofooter a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+#second{
+    padding: 50px 20px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+
+
+}
+.small{
+    font-size: 15px;
+    opacity: 1;
+    color: aliceblue;
+}
+.elem-text{
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 100;
+    opacity: 0.6;
+    mix-blend-mode: difference;
+    z-index: 4;
+
+}
+#elem{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 85%;
+    padding: 2vw 0px;
+    border-top:0.5px solid white;
+    position: relative;
+    user-select: none;
+
+
+}
+.elemlast{
+    border-bottom: 0.5px solid white;
+}
+#elem img{
+    position: relative;
+    height: 260px;
+    z-index: 69;
+    opacity: 0;
+    display: none;
+    z-index: 3;
+    
+
+}
+#about{
+    padding: 9vw 9vw;
+    width: 100vw;
+    height: 100vh;
+    max-height: fit-content;
+    background-color: black;
+    width:100%;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 30vw;   
+   
+}
+
+.photo{
+    width: 250px;
+    
+}
+.text-about{
+    width: 25rem;  
+    gap: 20px;
+    
+}
+.titel{
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+.decs{
+   margin: 20px 0;
+}
+.lets {
+    margin-top: 30px;
+    background-color: #000;
+    border: 1px white solid;
+    padding: 6px 8px;
+    border-radius:30px;
+}
+#fourth{
+    background-color:black;
+    
+    padding: 40px 30px;
+}
+
+#fourth h5{
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+#fourth h3{
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    opacity: .8;
+
+}
+
+.footer{
+    padding: 50px 30px;
+    background-color: #000;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-left h3{
+    font-weight: 200;
+}
+.footer-left{
+    display: flex;
+    gap: 13px;
+    
+}
+.footer-rigth a{
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 40px;
+    
+}
+
+
+
+/* Animation part of website */
+
+.bounding{
+    
+    width: fit-content;
+    overflow: hidden;
+
+}
+.bounding_elm{
+
+    text-align: end;
+    transform: translateY(120%);
+}
